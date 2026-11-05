@@ -6,6 +6,12 @@ public class Estructuras {
         System.out.println("Introduce una opcion: ");
         int opcion = sc.nextInt();
 
+        do {
+            System.out.println("--**Menu*--\n" +
+                    "Opcio 0");
+
+        }while (opcion == 0)
+
         switch (opcion) {
             case 1:
                 ejercicio1(sc);
