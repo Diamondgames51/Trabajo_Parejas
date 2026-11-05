@@ -7,7 +7,26 @@ public class Estructuras {
         int opcion = sc.nextInt();
 
         do {
+<<<<<<< HEAD
         }while (opcion == 0);
+=======
+            switch (opcion) {
+                case 1:
+                    ejercicio1(sc);
+                    break;
+                case 2:
+                    ejercicio2(sc);
+                    break;
+                case 3:
+                    ejercicio3(sc);
+                    break;
+                case 4:
+                    ejercicio4(sc);
+                    break;
+
+            }
+        }while(opcion == 0);
+>>>>>>> 60ec0b8bcf68ea02da79b559ffe357cf2339e612
 
         switch (opcion) {
             case 1:
