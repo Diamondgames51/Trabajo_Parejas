@@ -20,6 +20,7 @@ public class Estructuras {
                 case 4:
                     ejercicio4(sc);
                     break;
+
             }
         }while(opcion == 0);
 
