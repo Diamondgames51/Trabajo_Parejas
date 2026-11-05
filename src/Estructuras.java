@@ -7,10 +7,7 @@ public class Estructuras {
         int opcion = sc.nextInt();
 
         do {
-            System.out.println("--**Menu*--\n" +
-                    "Opcio 0");
-
-        }while (opcion == 0)
+        }while (opcion == 0);
 
         switch (opcion) {
             case 1:
